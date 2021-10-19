@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "lib": [
+            "DOM",
+            "DOM.Iterable"
+        ],
+        "allowJs": true,
+        "checkJs": true,
+        "outFile": "./app.js", 
+        "outDir": "./",
+        "rootDir": "./",
+        "noEmit": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "removeComments": true
+    }
+}
